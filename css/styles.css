@@ -1,0 +1,186 @@
+:root {
+  --primary-brand: #4d5ae5;
+  --pressed-state: #404bbf;
+  --success: #31d0aa;
+  --main-text: #2e2f42;
+  --body-text: #434455;
+  --helper-text: #8e8f99;
+  --dark-background: #2e2f42;
+  --light-mode: #f4f4fd;
+  --background-btn: #e7e9fc;
+  --main-bachkround: #ffffff;
+  --modal-background: #fcfcfc;
+}
+
+/*  ----------Загальні стилі------- */
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--body-text);
+  background-color: var(--main-bachkround);
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+  color: var(--main-text);
+}
+
+.link-focus:hover,
+.link-focus:focus {
+  color: var(--pressed-state);
+}
+
+.body-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+  color: var(--body-text);
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--pressed-state);
+  color: #fff;
+}
+
+/* ----------Стилі для header -------*/
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-brand);
+}
+.logo-studio {
+  color: var(--main-text);
+}
+
+.nav-links {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.adress-item {
+  color: var(--body-text);
+}
+
+.mail-tel {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-style: normal;
+}
+
+/* ----------Стилі для hero --------------------*/
+
+.hero {
+  background-color: var(--dark-background);
+}
+.hero-title {
+  color: #fff;
+
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.hero-button {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--primary-brand);
+  color: #fff;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+/*------Стилі для секції Advantages------------*/
+/* Тут зібрані стилі, які використовуються для різних секцій в майбутньому*/
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.title-item {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+
+  color: var(--main-text);
+}
+
+/* .body-text {
+  color: var(--body-text);
+} */
+
+.secondary-headline {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  color: var(--main-text);
+}
+
+/*--------------Стилі для секції "Команда"----------*/
+.team {
+  background-color: var(--light-mode);
+}
+
+.team-member {
+  background-color: var(--main-bachkround);
+}
+
+.team-title,
+.job-title {
+  text-align: center;
+}
+
+.footer {
+  background-color: var(--dark-background);
+}
+.footer-logo-studio {
+  color: var(--light-mode);
+}
+.slogan-footer {
+  color: var(--light-mode);
+}
+
+/* ----------PORTFOLIO---------- */
+
+.portfolio-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+
+  color: var(--primary-brand);
+  background-color: var(--light-mode);
+  border-color: var(--background-btn);
+}
